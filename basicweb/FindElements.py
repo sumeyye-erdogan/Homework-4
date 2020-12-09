@@ -15,7 +15,7 @@ class BrowserInfo():
 
 
         driver.find_element_by_id("email").send_keys("sumeyye.erdogan@useinsider.com")
-        driver.find_element_by_id("password").send_keys("336110.Se")
+        driver.find_element_by_id("password").send_keys(" ")
         driver.find_element_by_id("login-button").click()
         driver.implicitly_wait(10)
 
